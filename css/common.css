@@ -1,0 +1,35 @@
+html, 
+ body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:"NunitoSans-regular", Arial, Helvetica, sans-serif;
+  
+ 
+}
+
+#container {
+  max-width: 1200px;
+  margin: 0 auto;  
+ }
+
+ .text-secondary{
+  color:var(--secondary-color) ;
+
+ }
+
+ 
+#main-menu a{
+  color: white;
+  text-decoration: none;
+
+}
+
+#main-menu ul{
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ 

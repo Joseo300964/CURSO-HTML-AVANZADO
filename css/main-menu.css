@@ -1,0 +1,85 @@
+#main-menu{
+  float:left;
+  width: 100%;
+  background-color:var(--primary-color);
+  box-shadow: 2px 5px 5px var( --secondary-color);
+  border-radius: 15px;
+  text-transform: uppercase;
+  
+
+}
+
+#main-menu > ul > li{
+  float:left;
+  margin: 10px 0px;
+  
+  
+
+}
+#main-menu > ul > li >ul{
+  margin-top: 2px;
+  padding: 10px;
+  display: block;
+  position: absolute;
+  display: none;
+}
+
+#main-menu > ul > li > a{
+  background-color:var(--primary-color);
+  color:white;
+  margin: 15px ;
+  padding: 20x 30px;
+  transition: all 0.3s;
+  border-right:1px solid red;
+  font-size: 15px;
+  
+  
+}
+
+#main-menu ul a:hover{
+  color:var(--gray-color);
+}
+
+#main-menu > ul > li > ul > li > a{
+  display:block;
+  background-color:var(--primary-color) ;
+  font-size: 10px;
+  padding: 10px;
+  border-top: 2px solid rgb(234, 10, 10);
+
+}
+
+#main-menu > ul > li > ul > li > a:hover{
+  background-color:#111 ;
+  color: white;
+  font-weight: bold;
+}
+
+#main-menu > ul > li:hover > ul{
+  display: block;
+  box-shadow:2px 2px 5px color red ;
+
+}
+
+@media (max-width:700px){
+  #main-menu > ul >li{
+    width: 100%;
+    margin: 0;
+    border-bottom: 1px solid gray;
+  }
+  #main-menu > ul > li > a{
+    text-align: center;
+    display: block;
+
+  }
+  #main-menu > ul > li > ul{
+    width: 100%;
+  
+}
+
+#main-menu > ul > li > ul >li{
+  text-align: center;
+
+}
+}
+

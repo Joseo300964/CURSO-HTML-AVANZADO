@@ -1,0 +1,100 @@
+aside{
+  float: right;
+  background-color:#747272;
+  margin-top: 115px;
+  padding: 30px 50px 30px;
+  color: white;
+  font-weight: bold;
+  width: 25%;
+  border: 1px solid var(--gray-color);
+  box-shadow: 2px 2px 5px var(--gray-color);
+  box-sizing: border-box;
+}
+
+ul >li >a{
+  color:var(--gray-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+ul >li{
+  list-style: none;
+}
+
+aside h3{
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px;
+  border-top:  1px solid red;
+}
+
+
+.widget{
+  margin-bottom:60px ;
+ 
+ 
+}
+legend{
+  box-shadow:1px 1px 10px rgb(18, 17, 17);
+}
+
+fieldset{
+  box-shadow:1px 1px 10px rgb(18, 17, 17);
+  
+}
+
+.widget form input[type="email"], 
+.widget form input[type="password"]{
+  width: 250px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  padding: 10px;
+  box-shadow:1px 1px 10px rgb(18, 17, 17);
+   
+  
+}
+
+.widget form input[type="submit"]{
+  width: 100%;
+  text-transform: uppercase;
+  color: var(--gray-color);
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
+  box-shadow:1px 1px 1px rgb(221, 6, 6);
+  padding: 10px;
+  border: none;
+  transition: all 3s; 
+  cursor: pointer;
+  background-color:var(--primary-color)
+}
+
+
+.widget form input[type="submit"]:hover{
+  color: rgb(209, 9, 49);
+}
+
+.widget blockquote{
+   margin: 0;
+   color: var(--gray-color-dark);
+   font-style: italic;
+
+}
+
+.widget > ul > li {
+  list-style-type: circle;
+  padding-left: 20px;
+
+}
+
+@media (max-width:700px){
+  aside{
+    width: 100%;
+}
+}
+
+
+
+
+
