@@ -1,22 +1,46 @@
 header {
   float: left;
   width: 100%;
+  height: 300px;
   font-family: "NunitoSans-Bold", Arial, Helvetica, sans-serif;
-  text-align: center;
-  margin: 20px 0;
-   
+  text-align: center;  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
   
 }
 
+
 header > img {
-  width: 150px;
+  float:left;
+  width: 30%;
+  height: 89.5%; 
+  object-fit:cover;
+  margin-top: -20px;
+  
  
+ 
+  
 }
 
 header h1{
+  float:left;
   color:var(--primary-color);
-  font-size: 4.5em;
-  margin: 0;
-  text-shadow: 2px 3px 6px #ccc;
+  font-size: 3.7em;
+  width:70% ;
+  height: 80%;
+  padding-top: 80px;
+  padding-bottom: 0;
+  text-shadow: 2px 2px 5px var(--gray-color);
   font-weight: bold;
+  text-align: center;
+  margin: auto 0;
 }
+
+.text-secondary{
+  color: var(--color-text);
+  font-weight: bold;
+  text-shadow: 5px 3px 1px var(--gray-color);
+}
+

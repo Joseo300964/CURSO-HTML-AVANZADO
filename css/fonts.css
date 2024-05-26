@@ -1,9 +1,9 @@
 @font-face {
   font-family:"NunitoSans-Regular";
-  src: url(/assets/fonts/Nunito_Sans/static/NunitoSans_10pt-Regular.ttf);
+  src: url(../assets/fonts/Nunito_Sans/static/NunitoSans_10pt-Regular.ttf);
 }
 
 @font-face {
   font-family:"NunitoSans-bold";
-  src: url(/assets/fonts/Nunito_Sans/static/NunitoSans_10pt-Bold.ttf);
+  src: url(../assets/fonts/Nunito_Sans/static/NunitoSans_10pt-Bold.ttf);
 }

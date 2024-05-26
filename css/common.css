@@ -1,32 +1,38 @@
+
 html, 
- body {
+ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family:"NunitoSans-regular", Arial, Helvetica, sans-serif;
+  font-family:"NunitoSans-Regular", Arial, Helvetica, sans-serif;
   
- 
+
 }
 
-#container {
-  max-width: 1200px;
-  margin: 0 auto;  
- }
+#container{
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+
 
  .text-secondary{
   color:var(--secondary-color) ;
 
  }
 
- 
-#main-menu a{
-  color: white;
+ a{
   text-decoration: none;
+  color: var(--gray-color);
+  transition:all 0.3s ;
+ }
 
-}
+ a:hover{
+  color:var(--primary-color-dark);
 
-#main-menu ul{
-  text-decoration: none;
+ }
+
+ul{ 
   list-style: none;
   margin: 0;
   padding: 0;

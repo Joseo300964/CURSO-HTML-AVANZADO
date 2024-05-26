@@ -9,6 +9,7 @@ footer  {
   box-sizing: border-box;
  text-align: center;
  font-size: 14px;
+ border-radius: 10px;
 }
 
 footer a{
