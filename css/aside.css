@@ -1,9 +1,9 @@
 aside{
   float: right;
-  width: 350px;
+  width: 18%;
   background-color: var(--primary-color);
   border: 1px solid var(--gray-color-dark);
-  margin-top: 120px;
+  margin-top: 160px;
   color: white;
   box-sizing: border-box;
   padding: 5px;
